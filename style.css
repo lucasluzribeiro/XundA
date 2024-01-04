@@ -115,6 +115,13 @@ text-transform: uppercase;
   text-shadow: .03em .03em 0 hsla(230,40%,50%,1);
   }
   
+  #sociais {
+    display: inline;
+height: 60px;
+padding:10px;
+position: relative ;
+float: initial;
+  }
     .logo img {
         margin-top:3px;
         margin-left:20px;
