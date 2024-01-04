@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Righteous);
 @import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
+body {
+background-color: bisque;
+    
+}
 .city1 {
   background-color:rgb(245, 0, 0);
   color: white;
@@ -24,11 +28,7 @@
   padding: 20px;
   text-align: center;
 }
-p{
-    font-size: 20px;
-    text-indent: 0;
-    
-  }
+
 h1 {
     text-align: center;
     font-family: 'Righteous', serif;
@@ -73,13 +73,21 @@ h1 {
       transform: scale(1) rotateZ(-3deg);
     }
   }
-
+  .city2 h2 {
+    text-transform: uppercase;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-family: 'Righteous', serif;
+  font-size: 2em; 
+  text-shadow: .03em .03em 0 hsla(230,40%,50%,1);
+  }
+  
 h2 {
     text-transform: uppercase;
   display: inline-block;
   color: white;
   font-family: 'Righteous', serif;
-  font-size: 12em; 
+  font-size: 2em; 
   text-shadow: .03em .03em 0 hsla(230,40%,50%,1);
   }
  
@@ -96,3 +104,33 @@ h2 {
     left: 0;
     margin: auto;
     }
+    .logo img {
+        height: 150px;width: 150px;
+        border-radius: 70% ;}
+    .logo {
+    margin: 5px;
+    float: right;
+    border-radius: 2% ;
+    border-color: black;   
+    border:5px;
+    }
+    .one {
+        list-style: square inside;
+        font-size: 25px;
+        text-indent: 0;
+        padding-top: 4px;
+        font-weight: bold;
+      }
+      .estd{
+        font-size: 25px;
+        text-indent: 0;
+        font-weight: bold;
+      }
+      .cursos{
+        font-size: 25px;
+        text-indent: 0;
+        font-weight: bold;
+      }
+      .two {
+        list-style: square inside;
+      }
